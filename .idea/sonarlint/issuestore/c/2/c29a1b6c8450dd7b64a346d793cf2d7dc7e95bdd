@@ -1,0 +1,11 @@
+
+k	java:S106"+Replace this use of System.out by a logger.(¯ÝÖÖùÿÿÿÿJ$54ea079c-5508-455d-ad71-b130a0a22361
+f	java:S106"+Replace this use of System.out by a logger.(°á¬²J$6f986b78-9175-4aab-a571-3b625edfbb39
+f	java:S106*"+Replace this use of System.err by a logger.(˜ŸÚáJ$5410ba98-9835-4d97-b7a1-c0cded0fde7d
+l
+java:S1128	"0Remove this unused import 'java.io.PrintWriter'.(ÓÞÏÛJ$482b2d95-be28-4a79-8681-cd5a02c8d7a4
+h
+java:S1128
+",Remove this unused import 'java.net.Socket'.(­‡àúJ$57e86bf7-d7e5-4eb4-915c-47158867f31e
+{
+java:S1128":Remove this unused import 'java.net.UnknownHostException'.(Ú·¬˜úÿÿÿÿJ$e814e74f-2a47-41d0-845e-d321b2b31e51
