@@ -7,5 +7,7 @@ b
 2src/main/java/org/tunnel/config/SocketService.java,d\3\d319017b3e15103c859b3060ef1c66d637abef4d
 T
 $src/main/java/org/tunnel/Client.java,c\2\c29a1b6c8450dd7b64a346d793cf2d7dc7e95bdd
-U
-%src/main/java/org/tunnel/Client2.java,b\0\b00d1c56330556a2f329eac72ce6b8bb11d33efe
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e

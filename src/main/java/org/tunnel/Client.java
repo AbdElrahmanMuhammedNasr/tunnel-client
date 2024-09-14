@@ -1,5 +1,6 @@
 package org.tunnel;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 import org.tunnel.config.SocketService;
 
@@ -10,6 +11,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Map;
+import java.util.Objects;
 
 public class Client {
 
@@ -24,8 +26,8 @@ public class Client {
                     while ((serverMessage = socketService.receiveMessage()) != null) {
                         System.out.println("Recive Message: " + serverMessage);
                         String url = "http://localhost:1234"+serverMessage;
-                        String forObject = restTemplate.getForObject(url, String.class);
-                        socketService.sendMessage(forObject);
+                        ResponseEntity<String> forEntity = restTemplate.getForEntity(url, String.class);
+                        socketService.sendMessage(forEntity.getBody());
                     }
                 } catch (IOException e) {
                     System.out.println("Error reading from server: " + e.getMessage());
