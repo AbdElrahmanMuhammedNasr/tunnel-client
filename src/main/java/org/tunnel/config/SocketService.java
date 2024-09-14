@@ -14,6 +14,7 @@ public class SocketService implements AutoCloseable {
 
     public SocketService(String hostName, int portNumber) throws IOException {
         socket = new Socket(hostName, portNumber);
+        System.out.println("Port->>>>>>>>> "+socket.getLocalPort());
         out = new PrintWriter(socket.getOutputStream(), true);
         in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
     }
